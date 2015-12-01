@@ -10,13 +10,8 @@ and open the template in the editor.
         <title></title>
     </head>
     <body>
-        <?php
-           if(isset($_GET['page']) and ($_GET['page']!=''))
-                {
-                    require("../modele/".$_GET['page'].".php");
-                    include("../view/".$_GET['page'].".php");//vue
-                    
-                }
-        ?>
+        <applet code="Bonjour.java" codebase="../../applet/javaTest" width=200 height=50>
+            Votre navigateur n'est pas compatible Java !
+        </applet>
     </body>
 </html>
