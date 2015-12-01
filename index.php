@@ -11,7 +11,12 @@ and open the template in the editor.
     </head>
     <body>
         <?php
-        // put your code here
+           if(isset($_GET['page']) and ($_GET['page']!=''))
+                {
+                    require("../modele/".$_GET['page'].".php");
+                    include("../view/".$_GET['page'].".php");//vue
+                    
+                }
         ?>
     </body>
 </html>
