@@ -8,7 +8,7 @@
 <h1>Signaler une catastrophe</h1>
 
 
-<form action="../controller/ajout-disaster.php" method="post" >
+<form action="../NDLI2015/controller/ajout-disaster.php" method="post" >
   	Ville: <input type="text" name="ville">
   	</br>
 	</br>
