@@ -10,8 +10,6 @@ and open the template in the editor.
         <title></title>
     </head>
     <body>
-        <applet code="Bonjour.java" codebase="../../applet/javaTest" width=200 height=50>
-            Votre navigateur n'est pas compatible Java !
-        </applet>
+        
     </body>
 </html>
