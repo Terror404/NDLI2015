@@ -16,7 +16,7 @@ class Disaster
 
         $pdo =  new PDO('mysql:host=109.11.48.39;dbname=BIND_DB, root, rootMySQLItendstonight');
 
-        $sql = 'INSERT INTO DISASTER(ville, type, date_event, message) VALUES(:ville, :periode_id, :type, :date_event, :message);';
+        $sql = 'INSERT INTO DISASTER(ville, type, date_event, message) VALUES(:ville, :type, :date_event, :message);';
         $sth = $pdo->prepare($sql, array(PDO::ATTR_CURSOR => PDO::CURSOR_FWDONLY));
 
         $sth->execute(array(':ville' => $this->ville,
