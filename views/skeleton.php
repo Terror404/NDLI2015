@@ -16,23 +16,20 @@
 <body>
 <header>
 	<div class="row">
-  		<div class="col-xs-12 col-md-12" style="background-color:blue;">.col-xs-12 .col-md-8</div>
+  		<div class="col-xs-12 col-md-12" style="background-color:blue; height:50px;">
+
+  		</div>
 	</div>
 </header>
 
-<nav>
-	<table>
-		<tr>
-			<td>Onglet1</td>
-			<td>Onglet2</td>
-			<td>Onglet3</td>
-		</tr>
-	</table>
+<nav class="navbar navbar-default">
+	<div class="col-xs-12 col-md-12" style="background-color:yellow;">
+		<?php include("nav_bar.html"); ?>
+	</div>
 </nav>
 
 <main>
 
-	heloooooo
 	<style type="text/css"> 
 body {
   font-family:'Helvetica Neue', Arial, sans-serif;
@@ -140,7 +137,7 @@ body {
 
 <footer>
 	<div class="row">
-  		<div class="col-xs-12 col-md-12" style="background-color:blue;">.col-xs-12 .col-md-8</div>
+  		<div class="col-xs-12 col-md-12" style="background-color:blue; height:50px;"></div>
 	</div>
 </footer>
 </body>
