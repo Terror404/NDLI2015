@@ -20,7 +20,7 @@ if ($page == 'article') {
 
 } elseif ($page == 'ajout-disaster') {
 
-	include "/../views/disaster/ajout-disaster.html";
+	include "/views/disaster/add_disaster_form.php";
 
 }
 
