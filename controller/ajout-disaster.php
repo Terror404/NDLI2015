@@ -1,7 +1,8 @@
 <?php
-
+require '../class/class_disaster.php';
 
 if (isset($_POST) && !empty($_POST)) {
+
 	$disaster = New Disaster();
 
 	$disaster->setVille($_POST['ville']);
@@ -10,6 +11,7 @@ if (isset($_POST) && !empty($_POST)) {
 	$disaster->setMessage($_POST["message"]);
 
 	$disaster->create();
+	var_dump($disaster);exit;
 }
 
 

@@ -13,9 +13,12 @@ class Disaster
 
     public function create()
     {
+        $dsn = 'mysql:dbname=BIND_BD;host=localhost';
+        $user = 'root';
+        $password = '';
 
-        $pdo =  new PDO('mysql:host=109.11.48.39;dbname=BIND_DB, root, rootMySQLItendstonight');
-
+        $pdo = new PDO($dsn, $user, $password);
+        
         $sql = 'INSERT INTO DISASTER(ville, type, date_event, message) VALUES(:ville, :type, :date_event, :message);';
         $sth = $pdo->prepare($sql, array(PDO::ATTR_CURSOR => PDO::CURSOR_FWDONLY));
 

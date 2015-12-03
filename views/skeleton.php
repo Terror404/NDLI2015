@@ -32,43 +32,8 @@
 
 <main>
 
-  	<div id="container">
-	    <div class="item red"></div>
-	    <div class="item blue"></div>
-	    <div class="item green"></div>
-	    <div class="item yellow"></div>
-	    <div class="item red"></div>
-	    <div class="item blue"></div>
-	    <div class="item green"></div>
-	    <div class="item yellow"></div>
-	    <div class="item red"></div>
-	    <div class="item blue"></div>
-	    <div class="item green"></div>
-	    <div class="item yellow"></div>
-	    <div class="item red"></div>
-	    <div class="item blue"></div>
-	    <div class="item green"></div>
-	    <div class="item yellow"></div>
-	    <div class="item red"></div>
-	    <div class="item blue"></div>
-	    <div class="item green"></div>
-	    <div class="item yellow"></div>
-	</div>
-  
-
-<script type="text/javascript">
-	   var $container = $('#container'),
-        $checkboxes = $('#filters input');
-
-    $container.isotope({
-        itemSelector: '.item',
- 
-
-    });
-
-
-</script>
-
+  	
+<?php include("grid.html"); ?>
 
 </main>
 
