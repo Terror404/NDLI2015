@@ -20,6 +20,7 @@ td{
 table{
 	width:100%;
 }
+/* change bootstrap breaking point*/
 
 /*homepage grid */
 
@@ -28,8 +29,8 @@ body {
 }
 
 .item {
-  width: 300px;
-  height: 300px;
+  width:300px;
+  height: auto;
   margin: 3px;
   float: left;
   

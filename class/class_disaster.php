@@ -28,6 +28,13 @@ class Disaster
                             ':message' => $this->message));
 
     }
+    public function load(){
+         $pdo =  new PDO('mysql:host=109.11.48.39;dbname=BIND_DB, root, rootMySQLItendstonight');
+         $sql = 'SELECT * FROM DISASTER WHERE idDisaster;';
+         $sth = $pdo->prepare($sql, array(PDO::ATTR_CURSOR => PDO::CURSOR_FWDONLY));
+
+         
+    }
 
     /**
      * Gets the value of ville.

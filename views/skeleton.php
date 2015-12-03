@@ -5,7 +5,7 @@
 
 	<!--javascript-->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/2.2.2/isotope.pkgd.js"></script>
+	<script src="http://isotope.metafizzy.co/v1/jquery.isotope.min.js"></script>
 	<script type="text/javascript" src="../javascript/bootstrap/js/bootstrap.min.js"></script>
 
 	<!--css-->
@@ -22,7 +22,7 @@
 	</div>
 </header>
 
-<nav class="navbar-default">
+<nav class="navbar navbar-default">
 	<div class="row">
 		<div class="col-xs-12 col-md-12" style="background-color:yellow;">
 			<?php include("nav_bar.html"); ?>
@@ -32,45 +32,8 @@
 
 <main>
 
-<div class="row">
-  <div class="col-sm-12 col-md-12">
-  	<div id="container">
-	    <div class="item red"></div>
-	    <div class="item blue"></div>
-	    <div class="item green"></div>
-	    <div class="item yellow"></div>
-	    <div class="item red"></div>
-	    <div class="item blue"></div>
-	    <div class="item green"></div>
-	    <div class="item yellow"></div>
-	    <div class="item red"></div>
-	    <div class="item blue"></div>
-	    <div class="item green"></div>
-	    <div class="item yellow"></div>
-	    <div class="item red"></div>
-	    <div class="item blue"></div>
-	    <div class="item green"></div>
-	    <div class="item yellow"></div>
-	    <div class="item red"></div>
-	    <div class="item blue"></div>
-	    <div class="item green"></div>
-	    <div class="item yellow"></div>
-	</div>
-  </div>
-</div>
-
-<script type="text/javascript">
-	   var $container = $('#container'),
-        $checkboxes = $('#filters input');
-
-    $container.isotope({
-        itemSelector: '.item'
-
-    });
-
-
-</script>
-
+  	
+<?php include("grid.html"); ?>
 
 </main>
 
