@@ -1,9 +1,3 @@
- <!DOCTYPE html>
-<html>
-<head>
-	<meta charset="UTF-8"> 
-</head>
-<body>
 
 <h1>Ajouter une catastrophe</h1>
 
@@ -53,5 +47,3 @@
 	}
 </script>
 
-</body>
-</html> 
