@@ -1,12 +1,20 @@
-<h1>Ajouter une catastrophe</h1>
+ <!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8"> 
+</head>
+<body>
 
-<form action="../controller/ajout-disaster.php" method="post" >
+<h1>Signaler une catastrophe</h1>
+
+
+<form action="../NDLI2015/controller/ajout-disaster.php" method="post" >
   	Ville: <input type="text" name="ville">
   	</br>
 	</br>
   	Type de catastrophe: </br>
 	<p> catasprophe naturelle:</p>
-  	<input type="radio" name="type" value="Haute Montagne"> Haute Montagne </br>
+  	<input type="radio" name="type" value="Haute Montagne"> Haute Montagne  </br>
 	<input type="radio" name="type" value="Innondation "> Innondation </br>
 	<input type="radio" name="type" value="Tremblement de terre"> Tremblement de terre  </br>
 	<input type="radio" name="type" value="Cyclone"> Cyclone </br>
@@ -45,3 +53,5 @@
 	}
 </script>
 
+</body>
+</html> 
