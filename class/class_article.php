@@ -30,6 +30,20 @@ class Article
 
     }
 
+        public function load()
+    {
+
+        $pdo =  new PDO('mysql:host=localhost:8080;dbname=BIND_BD,root ,"root" ');
+
+        $sql = 'SELECT * FROM ARTICLE(title, content,idAuthor, idDisaster, dateCreation);';
+        $sth = $pdo->prepare($sql, array(PDO::ATTR_CURSOR => PDO::CURSOR_FWDONLY));
+
+        $sth->execute();
+        $result = $sth->fetchAll();
+        var_dump($result);exit;
+
+    }
+    
     /**
      * Gets the value of title.
      *

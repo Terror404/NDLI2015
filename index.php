@@ -22,6 +22,10 @@ if ($page == 'article') {
 
 	include "/views/disaster/add_disaster_form.php";
 
+} elseif ($page == 'recup-article') {
+
+	include "/views/articles/view_articles.php";
+
 }
 
 
